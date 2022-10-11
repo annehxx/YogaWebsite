@@ -11,7 +11,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-
     <title>Mind & Body</title>
   </head>
   <body>
@@ -79,15 +78,15 @@
         <div class="videos">
           <div class="pilates">
             <h3>Pilates</h3>
-            <video src="/music/pilates.mp4"></video>
+            <video class="video" muted loop src="/music/pilates.mp4"></video>
           </div>
           <div class="yoga">
             <h3>Yoga</h3>
-            <video src="/music/yoga.mp4"></video>
+            <video class="video" muted loop src="/music/yoga.mp4"></video>
           </div>
           <div class="meditation">
             <h3>Meditation</h3>
-            <video src="/music/meditation.mp4"></video>
+            <video class="video" muted loop src="/music/meditation.mp4"></video>
           </div>
         </div>
       </div>
@@ -96,13 +95,26 @@
       <div class="our-story">
         <h2>Our story...</h2>
         <p>
-          Always a student, Janet has immersed herself in the ancient practices
-          of yoga for over thirty years. A global yoga teacher, she shares the
+          Always a student, Joe has immersed himself in the ancient practices
+          of yoga for over thirty years. A global yoga teacher, he shares the
           teachings from the heart. Through curiosity, devotion, and dedication
-          she creates a unique approach to living yoga.
+          he creates a unique approach to living yoga.
         </p>
       </div>
       <img src="/images/our-story.png" alt="" />
     </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+      integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"
+      integrity="sha512-tHvUcUQYi35zApvAa5TNR3fNhBQkVtkmWKfacnpxmix4/VTGz1lGjIVyLMp7gLgAvg+aKJjnVKokXJNS5GZ+/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="app.js"></script>
   </body>
 </html>
